@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+   
+}
+#logo{
+        display: flex;
+        margin: 0 14px;
+        color: white;
+        align-items: center;
+        margin-right: 28px;
+}
+#logo img{
+        filter: invert(1);
+        height: 40px;
+        width: 53px;
+}
+#navbar{
+        padding: 12px 2px;
+        background-color: #6b737e;
+        font-family: 'Nosifer', sans-serif;
+}
+#navbar ul{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+}
+#navbar li{
+        list-style: none;
+}
+#navbar li a:hover{
+        color: black;
+}
+#navbar li a{
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 7px 11px;
+        text-decoration: none;
+}
+#introSection{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:url("/static/pic.jpg") center/cover no-repeat; 
+        height: 300px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        background-color: rgb(124, 84, 31);
+}
+#introSection div.small{
+        font-size: 27px;
+        padding: 5px;
+}
+
+#missionSection{
+        margin: auto;
+        height: 288px;
+        display: block;
+        width: 80%;
+        /* background-color: rgba(92, 158, 16, 0.459); */
+        font-family: 'Nosifer', sans-serif;
+}
+#missionSection h2{
+        text-align: center;
+        padding-top: 23px;
+}
+.card{
+        border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    display: inline-block;
+    margin: 23px 20px;
+    height: 170px;
+    background-color: whitesmoke;
+}
+.card-box{
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 23px;
+        font-family: 'Dancing Script', cursive;
+}
+.card-img{
+        height: 100px;
+        padding: 0 14px;
+}
+.card-img img{
+        height: inherit;
+}
+.card h4{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        margin: 6px 12px;
+        font-size: 1.6rem;
+}
+#sponsorsSection{
+        height: 230px;
+        background-color: rgb(35, 155, 115);
+        font-family: 'Nosifer', sans-serif;
+}
+#sponsorsSection h2{
+        text-align: center;
+        padding-top: 23px;
+}
+#sponsors{
+        height: 135px;
+        max-width: 1142px;
+        margin: auto 138px;
+}
+.spImage{
+        height: 80%;
+        margin: 20px;
+}
+#footer{  
+          display: flex;
+        color: white;
+        height: 23px;
+        background-color: rgb(41, 38, 38);
+        justify-content: center;
+        align-items: center;
+}
+
+@media only screen and (max-width:1320px) {
+        .spImage{
+                height: 60%;
+        }
+        #missionSection{
+                /* display: flex;
+                flex-direction: column; */
+
+                width: 90%;
+        }
+}
+@media only screen and (max-width:1093px) {
+        #missionSection{
+                /* display: flex;
+                flex-direction: column; */
+
+                width: 100%;
+        }
+        #sponsors{
+                max-width: fit-content;
+                margin: auto 100px;
+        }
+        .spImage{
+                height: 55%;
+        }
+}
+        

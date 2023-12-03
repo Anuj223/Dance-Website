@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+      script(src='/static/index.js')
+
+block style 
+      style 
+            include ../static/style.css
+            include ../static/styleContact.css
+
+block content
+      section#introSection 
+            div Welcome to AJ's DanceAcedmy 
+            div.small Eat Sleep Dance Repeat 
+
+      section#missionSection 
+            h2 Our Mission 
+            div.card 
+                  h4  Dance Perfection 
+                  div.card-box 
+                        div.card-img 
+                              img(src="/static/img1.png", alt="")
+                        div.content-box 
+                              p This is the best Dance Acdemy in the Universe 
+            div.card 
+                  h4 Dance the way you like  
+                  div.card-box 
+                        div.card-img 
+                              img(src="/static/img2.png", alt="")
+                        div.content-box 
+                              p This is the best Dance Acdemy in the Universe 
+            div.card 
+                  h4 Expert Teaching 
+                  div.card-box 
+                        div.card-img 
+                              img(src="/static/img3.png", alt="")
+                        div.content-box 
+                              p This is the best Dance Acdemy in the Universe 
+
+      section#sponsorsSection 
+            h2 Ours Sponser 
+            div#sponsors 
+                  img(src="/static/sp.png", alt="Sponsors image",class="spImage")
+                  img(src="/static/sp1.png", alt="Sponsors image",class="spImage")
+                  img(src="/static/sp2.png", alt="Sponsors image",class="spImage")
+                  img(src="/static/sp3.png", alt="Sponsors image",class="spImage")
+                  img(src="/static/sp4.png", alt="Sponsors image",class="spImage")
+
+
+            

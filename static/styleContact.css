@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+   
+}
+
+.container{
+        min-height: 85.7vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #41555c;
+}
+
+h2{
+        font-family: 'Nosifer', sans-serif;
+        text-align: center;
+        margin: 10px 0px;
+}
+
+.myForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.myInput{
+        /* font-family: 'Dancing Script';
+        font-size: 40px; */
+padding: 7px 6px;
+    width: 40%;
+    margin: 8px 8px;
+    text-align: center;
+    border: 2px solid #305589;
+        border-radius: 12px;
+        background: repeating-linear-gradient(45deg, black, transparent 100px);
+}
+
+.btn{
+        padding: 9px;
+    margin: 9px;
+    border: 2px solid #305589;
+    border-radius: 10px;
+    color: #9f8484;
+    cursor: pointer;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+}
+
+/* @media only screen and (max-width:400px) {
+        
+.container
+{
+        min-height: 53.5vh;
+} 
+} */
